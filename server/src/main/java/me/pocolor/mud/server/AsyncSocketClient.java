@@ -2,8 +2,8 @@ package me.pocolor.mud.server;
 
 import me.pocolor.mud.core.event.EventBus;
 import me.pocolor.mud.server.event.ClientReadEvent;
-
 import me.pocolor.mud.server.exception.ClientNotConnectedException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,17 +1,16 @@
 package me.pocolor.mud.server;
 
 import me.pocolor.mud.core.event.EventBus;
-
 import me.pocolor.mud.server.event.ClientConnectedEvent;
 import me.pocolor.mud.server.event.ClientDisconnectedEvent;
-
 import me.pocolor.mud.server.exception.ServerNotOpenedException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.nio.channels.AsynchronousServerSocketChannel;
 import java.net.InetSocketAddress;
+import java.nio.channels.AsynchronousServerSocketChannel;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.nio.channels.CompletionHandler;
 import java.util.UUID;
