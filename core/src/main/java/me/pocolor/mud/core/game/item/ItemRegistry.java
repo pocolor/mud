@@ -16,21 +16,21 @@ public final class ItemRegistry {
     private ItemRegistry() {}
 
     // berries
-    public static final RazzBerry razzBerry = new RazzBerry();
-    public static final PinapBerry pinapBerry = new PinapBerry();
+    public static RazzBerry razzBerry() { return new RazzBerry(); }
+    public static PinapBerry pinapBerry() { return new PinapBerry(); }
 
     // pokeballs
-    public static final PokeBall pokeBall = new PokeBall();
-    public static final GreatBall greatBall = new GreatBall();
-    public static final UltraBall ultraBall = new UltraBall();
+    public static PokeBall pokeBall() { return new PokeBall(); }
+    public static GreatBall greatBall() { return new GreatBall(); }
+    public static UltraBall ultraBall() { return new UltraBall(); }
 
     // potions
-    public static final Potion potion = new Potion();
-    public static final SuperPotion superPotion = new SuperPotion();
-    public static final HyperPotion hyperPotion = new HyperPotion();
-    public static final MaxPotion maxPotion = new MaxPotion();
+    public static Potion potion() { return new Potion(); }
+    public static SuperPotion superPotion() { return new SuperPotion(); }
+    public static HyperPotion hyperPotion() { return new HyperPotion(); }
+    public static MaxPotion maxPotion() { return new MaxPotion(); }
 
     // revives
-    public static final Revive revive = new Revive();
-    public static final MaxRevive maxRevive = new MaxRevive();
+    public static Revive revive() { return new Revive(); }
+    public static MaxRevive maxRevive() { return new MaxRevive(); }
 }
