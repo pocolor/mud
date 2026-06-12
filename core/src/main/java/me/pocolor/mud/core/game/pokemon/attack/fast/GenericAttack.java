@@ -20,4 +20,9 @@ public class GenericAttack extends FastAttack {
     public int getDmg() {
         return dmg;
     }
+
+    @Override
+    public String getName() {
+        return "Generic " + type.name().toLowerCase() + " attack";
+    }
 }

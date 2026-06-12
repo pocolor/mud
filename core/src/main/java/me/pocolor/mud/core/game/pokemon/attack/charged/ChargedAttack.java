@@ -1,4 +1,6 @@
 package me.pocolor.mud.core.game.pokemon.attack.charged;
 
-public abstract class ChargedAttack {
+import me.pocolor.mud.core.game.pokemon.attack.Attack;
+
+public abstract class ChargedAttack extends Attack {
 }
